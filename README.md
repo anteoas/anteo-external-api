@@ -13,7 +13,8 @@ Contact info for token: support@anteo.no
 **fishctrlcounttypes**  
 > **Parameters:**   
 from: Date on format yyyy-mm-dd. Defaults to first day in previous month       
-to: Date on format yyyy-mm-dd. Defaults to last day in previous month  
+to: Date on format yyyy-mm-dd. Defaults to last day in previous month    
+Maximum time span for query is 90 days.  
 **Returns:**  
 List of every count type delivered in selected time span, included list of sites per count type.  
 ```
@@ -35,6 +36,7 @@ List of every count type delivered in selected time span, included list of sites
 countTypeId: (*Required*) countTypeId fetched from *fishctrlcounttypes*  
 siteId:  (*Required*)  siteId fetched from siteIds array in *fishctrlcounttypes*     
 from: Date on format yyyy-mm-dd. Defaults to first day in previous month       
-to: Date on format yyyy-mm-dd. Defaults to last day in previous month  
+to: Date on format yyyy-mm-dd. Defaults to last day in previous month   
+Maximum time span for query is 90 days.  
 **Returns:**  
 Complete list of reports with selected count type, including all data for selected site in selected time span, included from and to date.
