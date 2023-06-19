@@ -47,3 +47,11 @@ from: Optional Date on format yyyy-mm-dd.
 to: Optional Date on format yyyy-mm-dd.  
 **Returns:**  
 Named csv-file with all FishCtrl results for chosen time span
+
+**fishctrlmatrixjson**  
+> **Parameters:**       
+from: Optional Date on format yyyy-mm-dd.     
+to: Optional Date on format yyyy-mm-dd.  
+**Returns:**  
+&ensp; **headers:** Array with all headers for chosen time span   
+&ensp; **results:** Array with all results. indexes according to headers array
