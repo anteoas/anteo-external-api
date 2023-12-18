@@ -31,6 +31,12 @@ List of every count type delivered in selected time span, included list of sites
 	}
 ]  
 ```
+**fishctrlcounttypemeta**  
+> **Parameters:**   
+countTypeId: countTypeId to check for possible data    
+**Returns:**  
+Object with same structure as returned in fishctrlresults, with every possible parameter and datatype
+
 **fishctrlresults**  
 > **Parameters:**   
 countTypeId: (*Required*) countTypeId fetched from *fishctrlcounttypes*  
