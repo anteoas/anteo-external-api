@@ -46,18 +46,3 @@ to: Date on format yyyy-mm-dd. Defaults to last day in previous month
 Maximum time span for query is 90 days.  
 **Returns:**  
 Complete list of reports with selected count type, including all data for selected site in selected time span, included from and to date.
-
-**fishctrlmatrixcsv**  
-> **Parameters:**       
-from: Optional Date on format yyyy-mm-dd.     
-to: Optional Date on format yyyy-mm-dd.  
-**Returns:**  
-Named csv-file with all FishCtrl results for chosen time span
-
-**fishctrlmatrixjson**  
-> **Parameters:**       
-from: Optional Date on format yyyy-mm-dd.     
-to: Optional Date on format yyyy-mm-dd.  
-**Returns:**  
-&ensp; **headers:** Array with all headers for chosen time span   
-&ensp; **results:** Array with all results. indexes according to headers array
